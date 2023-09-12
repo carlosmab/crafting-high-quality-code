@@ -1,0 +1,463 @@
+[
+  {
+      "id": 1,
+      "name": "KISS (Keep It Simple, Stupid)",
+      "definition": "This principle advocates simplicity in design and implementation. It suggests that systems should be as simple as possible, avoiding unnecessary complexity.",
+      "author": "Associated with Kelly Johnson of Lockheed Skunk Works.",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Enhanced readability",
+          "Easier maintenance",
+          "Reduced likelihood of defects",
+          "Faster development",
+          "Improved collaboration"
+      ],
+      "challenges": [],
+      "criticism": [
+          "Simplicity can sometimes lead to oversimplification",
+          "Context-specific, not a one-size-fits-all principle"
+      ]
+  },
+  {
+      "id": 2,
+      "name": "YAGNI (You Aren't Gonna Need It)",
+      "definition": "YAGNI advises developers to avoid adding functionality or features until they are necessary. In essence, don't build something until you need it.",
+      "author": "Associated with Extreme Programming (XP) and Agile methodologies.",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Reduced code complexity",
+          "Faster development",
+          "Avoidance of unnecessary work",
+          "Improved focus on essential features",
+          "Easier code maintenance"
+      ],
+      "challenges": [],
+      "criticism": [
+          "Potential under-engineering if taken to extremes",
+          "Need for careful judgment to determine what's truly unnecessary"
+      ]
+  },
+  {
+      "id": 3,
+      "name": "DRY (Don't Repeat Yourself)",
+      "definition": "DRY emphasizes the avoidance of code duplication. It encourages developers to factor out shared functionality and reuse it.",
+      "author": "Coined by Andy Hunt and Dave Thomas in 'The Pragmatic Programmer.'",
+      "references": {
+          "books": [
+              "The Pragmatic Programmer: Your Journey to Mastery by Andrew Hunt and David Thomas"
+          ],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Reduced redundancy and code duplication",
+          "Consistency in behavior",
+          "Easier maintenance and updates",
+          "Enhanced readability",
+          "Fewer opportunities for errors"
+      ],
+      "challenges": [],
+      "criticism": [
+          "Overapplication can lead to unnecessary abstraction",
+          "Complexity when taken to extremes"
+      ]
+  },
+  {
+      "id": 4,
+      "name": "Low Coupling",
+      "definition": "Low coupling is a design principle that promotes minimal dependencies between software modules. It aims to reduce the connections and interactions between components.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Increased modularity",
+          "Ease of maintenance",
+          "Easier testing",
+          "Better code organization",
+          "Flexibility in making changes"
+      ],
+      "challenges": [],
+      "criticism": [
+          "Potential over-engineering in pursuit of low coupling",
+          "Difficulty in achieving low coupling in some cases"
+      ]
+  },
+  {
+      "id": 5,
+      "name": "High Cohesion",
+      "definition": "High cohesion is a design principle that suggests that a module or class should have a well-defined, single purpose. It promotes grouping related functionalities together.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Improved maintainability",
+          "Enhanced code readability",
+          "Ease of understanding",
+          "Reduced complexity",
+          "Easier testing"
+      ],
+      "challenges": [],
+      "criticism": [
+          "May lead to an excessive number of small, specialized classes",
+          "Balancing cohesion with other design principles"
+      ]
+  },
+  {
+      "id": 6,
+      "name": "Separation of Concerns",
+      "definition": "Separation of Concerns (SoC) is a design principle that advocates breaking a software system into distinct, independent modules or components, each addressing a specific concern or responsibility.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [],
+      "benefits": [
+          "Improved maintainability",
+          "Ease of understanding and modification",
+          "Enhanced code organization",
+          "Facilitates collaboration",
+          "Reduced complexity"
+      ],
+      "challenges": [],
+      "criticism": [
+          "Potential over-separation leading to complexity",
+          "Balancing SoC with other design principles"
+      ]
+  },
+  {
+      "id": 7,
+      "name": "Single Responsibility Principle (SRP)",
+      "definition": "The Single Responsibility Principle (SRP) states that a class should have only one reason to change, meaning it should have only one responsibility or job within the software system.",
+      "author": "Introduced by Robert C. Martin.",
+      "references": {
+          "books": [
+              "Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin",
+              "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin"
+          ],
+          "articles": [
+              "The Principles of OOD (Robert C. Martin)"
+          ]
+      },
+      "key concepts": [
+          "Responsibility",
+          "Cohesion",
+          "Abstraction",
+          "Encapsulation"
+      ],
+      "benefits": [
+          "Improved code organization",
+          "Enhanced code readability",
+          "Easier maintenance and debugging",
+          "Supports reusability",
+          "Simplifies testing"
+      ],
+      "challenges": [
+          "Identifying appropriate responsibilities",
+          "Potential increase in the number of classes",
+          "Balancing SRP with other principles"
+      ],
+      "criticism": [
+          "May lead to an excessive number of small classes",
+          "Interpreting 'responsibility' can be subjective"
+      ]
+  },
+  {
+      "id": 8,
+      "name": "Open-Closed Principle (OCP)",
+      "definition": "The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. In other words, you should be able to add new functionality without changing existing code.",
+      "author": "Introduced by Bertrand Meyer.",
+      "references": {
+          "books": [
+              "Object-Oriented Software Construction by Bertrand Meyer"
+          ],
+          "articles": []
+      },
+      "key concepts": [
+          "Abstraction",
+          "Inheritance",
+          "Polymorphism"
+      ],
+      "benefits": [
+          "Facilitates code extension",
+          "Minimizes risk of introducing bugs in existing code",
+          "Promotes reusability of existing code",
+          "Supports modularity and maintainability",
+          "Encourages design patterns like the Strategy Pattern"
+      ],
+      "challenges": [
+          "Identifying appropriate extension points",
+          "Initial design complexity to support OCP"
+      ],
+      "criticism": [
+          "May introduce unnecessary abstractions",
+          "Can be challenging to implement in some scenarios"
+      ]
+  },
+  {
+      "id": 9,
+      "name": "Interface Segregation Principle (ISP)",
+      "definition": "The Interface Segregation Principle (ISP) suggests that clients should not be forced to depend on interfaces they don't use. It promotes the creation of lean and focused interfaces.",
+      "author": "Introduced by Robert C. Martin.",
+      "references": {
+          "books": [
+              "Agile Software Development, Principles, Patterns, and Practices by Robert C. Martin"
+          ],
+          "articles": [
+              "The Principles of OOD (Robert C. Martin)"
+          ]
+      },
+      "key concepts": [
+          "Interface design",
+          "Dependency management",
+          "Client-specific interfaces"
+      ],
+      "benefits": [
+          "Prevents client classes from being burdened with irrelevant methods",
+          "Enhances code maintainability",
+          "Supports the Single Responsibility Principle",
+          "Promotes flexibility in design",
+          "Minimizes code coupling"
+      ],
+      "challenges": [
+          "Designing cohesive yet minimal interfaces",
+          "Balancing ISP with other design principles"
+      ],
+      "criticism": [
+          "Potential increase in the number of interfaces",
+          "Complexity in managing multiple interfaces"
+      ]
+  },
+  {
+      "id": 10,
+      "name": "Dependency Injection (DI)",
+      "definition": "Dependency Injection (DI) is a design pattern that encourages the injection of dependencies (e.g., services, objects) into a class from the outside rather than creating them within the class. It promotes loose coupling and testability.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [
+          "Inversion of Control (IoC)",
+          "Decoupling",
+          "Configuration"
+      ],
+      "benefits": [
+          "Enhanced testability through easier mocking of dependencies",
+          "Reduced coupling between classes",
+          "Increased flexibility in swapping dependencies",
+          "Promotes the Single Responsibility Principle",
+          "Facilitates unit testing and isolation"
+      ],
+      "challenges": [
+          "Learning curve for developers new to DI",
+          "Configuration and management of dependencies"
+      ],
+      "criticism": [
+          "Can lead to a large number of dependencies being injected",
+          "Overuse can complicate code unnecessarily"
+      ]
+  },
+  {
+      "id": 11,
+      "name": "Composition over Inheritance",
+      "definition": "Composition over Inheritance is a design principle that favors object composition (combining simple objects) over class inheritance (creating complex class hierarchies) for code reuse and flexibility.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [
+          "Code reuse",
+          "Flexibility",
+          "Composition",
+          "Inheritance"
+      ],
+      "benefits": [
+          "Enhanced flexibility in object behavior",
+          "Reduced coupling between classes",
+          "Simpler, flatter class hierarchies",
+          "Promotes code reuse without class hierarchies",
+          "Easier to understand and maintain"
+      ],
+      "challenges": [
+          "Requires thinking in terms of object composition",
+          "May require more code in some cases"
+      ],
+      "criticism": [
+          "Not suitable for all scenarios, especially where common behavior is well-defined",
+          "Can lead to more code duplication if not used judiciously"
+      ]
+  },
+  {
+      "id": 12,
+      "name": "Clean Architecture",
+      "definition": "Clean Architecture is an architectural pattern that prioritizes the separation of concerns in software development. It emphasizes the independence of business logic from external concerns like databases or frameworks.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [
+          "Architectural layers",
+          "Dependency rule",
+          "Business logic",
+          "Outer layers"
+      ],
+      "benefits": [
+          "Enhanced maintainability",
+          "Improved code organization",
+          "Supports long-term flexibility",
+          "Easier testing of business logic",
+          "Isolation of external dependencies"
+      ],
+      "challenges": [
+          "Initial design complexity",
+          "Learning curve for new developers",
+          "Strict adherence to architectural rules"
+      ],
+      "criticism": [
+          "May be perceived as overly complex for small projects",
+          "Requires discipline to maintain architectural boundaries"
+      ]
+  },
+  {
+      "id": 13,
+      "name": "Liskov Substitution Principle (LSP)",
+      "definition": "The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. It ensures that derived classes adhere to the expected behavior of the base class.",
+      "author": "Coined by Barbara Liskov.",
+      "references": {
+          "books": [],
+          "articles": [
+              "A Behavioral Notion of Subtyping by Barbara Liskov and Jeannette Wing"
+          ]
+      },
+      "key concepts": [
+          "Inheritance",
+          "Subtype",
+          "Polymorphism",
+          "Behavioral compatibility"
+      ],
+      "benefits": [
+          "Supports polymorphism and substitution",
+          "Enhances code extensibility",
+          "Reduces errors when extending classes",
+          "Ensures adherence to base class contracts"
+      ],
+      "challenges": [
+          "Ensuring behavioral compatibility in complex hierarchies",
+          "Balancing LSP with other design principles"
+      ],
+      "criticism": [
+          "May be too restrictive in some cases",
+          "Complexity in adhering to behavioral compatibility"
+      ]
+  },
+  {
+      "id": 14,
+      "name": "Design By Contract (DbC)",
+      "definition": "Design By Contract (DbC) is a software design approach that involves specifying the expected behavior of a module through preconditions and postconditions. It formalizes the mutual obligations and benefits between different parts of the software.",
+      "author": "Coined by Bertrand Meyer.",
+      "references": {
+          "books": [
+              "Object-Oriented Software Construction by Bertrand Meyer"
+          ],
+          "articles": []
+      },
+      "key concepts": [
+          "Contracts",
+          "Preconditions",
+          "Postconditions",
+          "Invariants"
+      ],
+      "benefits": [
+          "Enhanced code reliability",
+          "Improved code documentation",
+          "Supports code reasoning and verification",
+          "Facilitates error detection and debugging",
+          "Reduces misunderstandings between developers"
+      ],
+      "challenges": [
+          "Requires discipline in specifying contracts",
+          "Potential performance overhead in contract enforcement"
+      ],
+      "criticism": [
+          "Contracts may not cover all scenarios",
+          "Can be perceived as verbose or rigid"
+      ]
+  },
+  {
+      "id": 15,
+      "name": "Law of Demeter (LoD)",
+      "definition": "The Law of Demeter (LoD) advises that an object should only communicate with its immediate neighbors and not with the entire system. It promotes reduced coupling between objects and minimizes the ripple effect of changes.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [
+          "Coupling",
+          "Interactions",
+          "Chain of calls"
+      ],
+      "benefits": [
+          "Enhanced code maintainability",
+          "Reduced risk of unintended side effects",
+          "Minimized impact of changes",
+          "Supports modular and independent development",
+          "Easier debugging and testing"
+      ],
+      "challenges": [
+          "Identifying appropriate neighbors",
+          "Balancing LoD with other design principles"
+      ],
+      "criticism": [
+          "May lead to increased boilerplate code",
+          "Strict adherence can lead to performance issues"
+      ]
+  },
+  {
+      "id": 16,
+      "name": "Information Expert",
+      "definition": "The Information Expert principle suggests that the class with the required information to fulfill a responsibility should be responsible for that task. It promotes placing the responsibility in the class with the most knowledge about the required information.",
+      "author": "",
+      "references": {
+          "books": [],
+          "articles": []
+      },
+      "key concepts": [
+          "Responsibility",
+          "Information",
+          "Expertise"
+      ],
+      "benefits": [
+          "Enhanced code maintainability",
+          "Improved encapsulation of knowledge",
+          "Reduced complexity of classes",
+          "Easier understanding and debugging",
+          "Supports the Single Responsibility Principle"
+      ],
+      "challenges": [
+          "Identifying the class with the most knowledge",
+          "Balancing Information Expert with other design principles"
+      ],
+      "criticism": [
+          "May lead to larger classes with multiple responsibilities",
+          "Requires careful consideration of knowledge distribution"
+      ]
+  }
+]

@@ -24,9 +24,9 @@
     /* Paths */
     "baseUrl": ".",
     "paths": {
-      "@features/*": ["src/features/*"],
-      "@src/*": ["src/*"],
-    },
+      "@src/*": ["./src/*"],
+      "@pages/*": ["./src/pages/*"],
+    }
     
   },
   "include": ["src"],

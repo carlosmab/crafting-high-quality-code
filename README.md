@@ -1,6 +1,33 @@
 # CRAFTING QUALITY CODE
 
-Testing configure
+
+
+## Configure paths
+- In vite.config.js
+``` export default defineConfig({
+  plugins: [
+    react(),
+    ViteSassPlugin()
+  ],
+  resolve: {
+    alias: {
+      "@src": "/src",
+      "@pages": "/src/pages",
+    },
+  },
+})
+```
+- In tsconfig.json
+```
+  "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@pages/*": ["./src/pages/*"],
+    }
+```
+
+## Set Up for testing
+- Use the Router in main.tsx
 - Installing types:
   - npm install
   - npm i --save-dev @types/jest
@@ -9,6 +36,7 @@ Testing configure
   - npm install --save-dev @testing-library/jest-dom
   - npm install --save-dev @babel/preset-env @babel/preset-react
   - npm install --save-dev jest-environment-jsdom
+  - npm install --save-dev history
   - create .babelrc file:
   ```
   {
@@ -26,7 +54,7 @@ Testing configure
     preset: 'ts-jest',
     testEnvironment: 'jsdom',
     moduleNameMapper: {
-      '^@src/(.*)$': '<rootDir>/src/$1', // Map your path alias
+      '^@src/(.*)$': '<rootDir>/src/$1', // Add more paths
     },
     transform: {
       "^.+\\.jsx?$": "babel-jest",
@@ -45,3 +73,4 @@ Testing configure
   }
 
   - Add "esModuleInterop": true, to "compilerOptions" is tsconfig.json
+

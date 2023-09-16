@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     ViteSassPlugin()
   ],
+  resolve: {
+    alias: {
+      "@src": "/src",
+      "@pages": "/src/pages",
+    },
+  },
 })

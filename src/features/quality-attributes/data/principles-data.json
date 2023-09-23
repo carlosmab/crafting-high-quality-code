@@ -8,7 +8,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Enhanced readability",
           "Easier maintenance",
@@ -31,7 +31,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Reduced code complexity",
           "Faster development",
@@ -56,7 +56,7 @@
           ],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Reduced redundancy and code duplication",
           "Consistency in behavior",
@@ -79,7 +79,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Increased modularity",
           "Ease of maintenance",
@@ -102,7 +102,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Improved maintainability",
           "Enhanced code readability",
@@ -125,7 +125,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [],
+      "keyConcepts": [],
       "benefits": [
           "Improved maintainability",
           "Ease of understanding and modification",
@@ -153,7 +153,7 @@
               "The Principles of OOD (Robert C. Martin)"
           ]
       },
-      "key concepts": [
+      "keyConcepts": [
           "Responsibility",
           "Cohesion",
           "Abstraction",
@@ -187,7 +187,7 @@
           ],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Abstraction",
           "Inheritance",
           "Polymorphism"
@@ -221,7 +221,7 @@
               "The Principles of OOD (Robert C. Martin)"
           ]
       },
-      "key concepts": [
+      "keyConcepts": [
           "Interface design",
           "Dependency management",
           "Client-specific interfaces"
@@ -251,7 +251,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Inversion of Control (IoC)",
           "Decoupling",
           "Configuration"
@@ -281,7 +281,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Code reuse",
           "Flexibility",
           "Composition",
@@ -312,7 +312,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Architectural layers",
           "Dependency rule",
           "Business logic",
@@ -346,7 +346,7 @@
               "A Behavioral Notion of Subtyping by Barbara Liskov and Jeannette Wing"
           ]
       },
-      "key concepts": [
+      "keyConcepts": [
           "Inheritance",
           "Subtype",
           "Polymorphism",
@@ -378,7 +378,7 @@
           ],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Contracts",
           "Preconditions",
           "Postconditions",
@@ -409,7 +409,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Coupling",
           "Interactions",
           "Chain of calls"
@@ -439,7 +439,7 @@
           "books": [],
           "articles": []
       },
-      "key concepts": [
+      "keyConcepts": [
           "Responsibility",
           "Information",
           "Expertise"

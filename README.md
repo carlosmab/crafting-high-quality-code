@@ -1,7 +1,5 @@
 # CRAFTING QUALITY CODE
 
-
-
 ## Configure paths
 - In vite.config.js
 ``` export default defineConfig({
@@ -73,6 +71,8 @@
     ],
     "testEnvironment": "jsdom"
   }
+
+  - Add this import within the test files  " import '@testing-library/jest-dom'; "
 
   - Add "esModuleInterop": true, to "compilerOptions" is tsconfig.json
 

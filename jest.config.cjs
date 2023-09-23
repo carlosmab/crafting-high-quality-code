@@ -2,6 +2,7 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
   moduleNameMapper: {
+    "^.+\\.(css|less|scss|sass)$": "babel-jest",
     '^@src/(.*)$': '<rootDir>/src/$1',
     '^@pages/(.*)$': '<rootDir>/src/pages/$1',
     '^@features/(.*)$': '<rootDir>/src/features/$1',

@@ -37,6 +37,7 @@
   - npm install --save-dev @babel/preset-env @babel/preset-react
   - npm install --save-dev jest-environment-jsdom
   - npm install --save-dev history
+  - npm i --save-dev babel-jest
   - create .babelrc file:
   ```
   {
@@ -54,6 +55,7 @@
     preset: 'ts-jest',
     testEnvironment: 'jsdom',
     moduleNameMapper: {
+      "^.+\\.(css|less|scss|sass)$": "babel-jest",
       '^@src/(.*)$': '<rootDir>/src/$1', // Add more paths
     },
     transform: {

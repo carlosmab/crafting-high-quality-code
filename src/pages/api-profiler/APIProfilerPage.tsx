@@ -77,7 +77,7 @@ function APIProfilerPage() {
       <div data-testid="api-profiler-description">
         The API Profiler Tool is a comprehensive tool designed to monitor, test, and optimize the performance of APIs (Application Programming Interfaces). It serves as a valuable asset for developers and administrators, ensuring the reliability, availability, and efficiency of API endpoints. The service combines several key features to enhance the management and profiling of APIs.
       </div>
-      <div>{
+      <div data-testid="api-profiler-features">{
         apiProfilerFeatures.map((feature, index) => (
           <APIProfilerFeature key={index} {...feature} />
         ))

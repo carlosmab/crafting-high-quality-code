@@ -17,7 +17,7 @@ describe("API profiler page tests", () => {
   });
 
   it('Page contains service description', () => {
-    const description = screen.queryByTestId('api-profiler-services');
+    const description = screen.queryByTestId('api-profiler-description');
     expect(description).not.toBeNull();
   })
 

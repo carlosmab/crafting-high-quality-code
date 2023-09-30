@@ -1,5 +1,3 @@
-
-
 interface Props {
   title: string, 
   items: string[],

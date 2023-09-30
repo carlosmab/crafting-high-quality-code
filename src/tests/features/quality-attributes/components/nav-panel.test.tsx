@@ -1,6 +1,5 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import NavPanel from './NavPanel'; // Adjust the import path
+import NavPanel from '@src/features/quality-attributes/components/nav-panel/NavPanel'; // Adjust the import path
 
 test('NavPanel displays links based on qualityAttributes', () => {
   // Define sample qualityAttributes data for testing

@@ -76,3 +76,10 @@
 
   - Add "esModuleInterop": true, to "compilerOptions" is tsconfig.json
 
+# Testing React Query
+
+- Mock fetch function (fetch, axios ...)
+- Create wrapper
+- assert the isLoading state
+- wait for success
+- assert data
